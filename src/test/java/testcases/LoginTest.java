@@ -13,8 +13,6 @@ public class LoginTest {
 
     @Before
     public void setUp(){
-        GetDriverOption go = new GetDriverOption();
-        //driver = go.getDriverOpt(driverOption.CHROME);
         driver = GetDriverOption.getDriverOpt(driverOption.CHROME);
         driver.get("https://www6.pb-santander.com/pre-ebanking-integration/security/Login");
     }
@@ -22,10 +20,15 @@ public class LoginTest {
     @Test
     public void test(){
         LoginPage  lp = new LoginPage(driver);
-        lp.setUsername("Prueba");
-        lp.setPassword("Prueba");
+        lp.setUsername("AF68XT18");
+        lp.setPassword("Miami123");
         lp.eBankingAccess();
-
+        lp.setSecurityOption();
+        lp.acceptOnModalOne();
+        lp.answerFirstQuestion();
+        lp.answerSecondQuestion();
+        lp.acceptOnSecondModal();
+        lp.clickOnContinue();
     }
 
     @After
