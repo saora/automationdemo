@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2a8d8d2-a282-40ef-88e0-ac41c226bb9e" name="Default Changelist" comment="" />
+    <list default="true" id="d2a8d8d2-a282-40ef-88e0-ac41c226bb9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/GetDriverOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/GetDriverOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/GetDriverOption$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/GetDriverOption$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/GetDriverOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/GetDriverOption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/driverOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/driverOption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/LoginTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +33,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -38,14 +50,21 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\salvador.ortuno\IdeaProjects\AutomationDemoOne\src\main\resources\webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTest.test">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn deploy" />
+      <command value="mvn verify" />
+      <command value="mvn clean verify" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.LoginTest">
     <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutomationDemoOne" />
       <extension name="coverage">
@@ -79,8 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginTest.test" />
         <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.LoginTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -102,25 +121,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="206" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585782758330" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585773227106">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585788487976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585773227106" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585773227105">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585788487976" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585788487976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585773227105" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585773227105">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585788487976" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585788487975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585773227105" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585773227106">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585788487975" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585788487976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585773227106" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1585782773637">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585788487976" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1585784895497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585782773637" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585784895497" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1585788054018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585788054018" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1585788487994">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585788487994" />
   </component>
 </project>

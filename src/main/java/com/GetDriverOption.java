@@ -3,8 +3,8 @@ package com;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class GetDriverOption {
-     static WebDriver driver;
+public  class GetDriverOption {
+    static WebDriver driver;
     public static WebDriver getDriverOpt(driverOption dopt){
         switch (dopt){
             case CHROME:

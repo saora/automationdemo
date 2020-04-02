@@ -2,6 +2,7 @@ package testcases;
 
 import com.GetDriverOption;
 import com.driverOption;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
@@ -9,24 +10,25 @@ import pages.LoginPage;
 
 public class LoginTest {
     WebDriver driver;
-    LoginPage lp;
 
     @Before
     public void setUp(){
-        driver=GetDriverOption.getDriverOpt(driverOption.CHROME);
+        GetDriverOption go = new GetDriverOption();
+        //driver = go.getDriverOpt(driverOption.CHROME);
+        driver = GetDriverOption.getDriverOpt(driverOption.CHROME);
         driver.get("https://www6.pb-santander.com/pre-ebanking-integration/security/Login");
     }
 
     @Test
     public void test(){
-        lp = new LoginPage(driver);
+        LoginPage  lp = new LoginPage(driver);
         lp.setUsername("Prueba");
         lp.setPassword("Prueba");
         lp.eBankingAccess();
 
     }
 
-    @Test
+    @After
     public void tearDown(){
 
     }
